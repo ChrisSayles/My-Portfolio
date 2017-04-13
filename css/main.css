@@ -1,0 +1,77 @@
+.var-highlight{
+    color: #C0AD60;
+}
+.string-highlight{
+    color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter{
+        font-size: 2em;
+        margin: 0;
+        font-family: "Courier New";
+        background-color: transparent;
+        border: transparent;
+
+        &:after{
+            content: "|";
+            animation: blink 500ms linear infinite alternate;
+        }
+}
+
+@-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+/* HEADER BACKGROUND */
+.navbar-custom {
+  background-color: #F6F6F6;
+      border-bottom-style: double;
+    border-bottom-color: #DE1B1B;
+    border-bottom-width: 8px;
+}
+/* LARGE BANNER WORDING */
+.navbar-brand.headerText{
+    color: #DE1B1B;
+}
+
+/* MAIN BANNER TEXT COLOR */
+.navbar-custom .navbar-nav li a {
+    color: #DE1B1B;
+}
+
+header {
+    text-align: center;
+    /*background-image: url("./img/portfolio/blackBackground.png");
+*/    
+background-color: #2B2B2B;
+color: #fff;
+}
+
+
+.var-highlight{
+    color:#00F0FC;
+}
+
+.object-color{
+    color: white;
+}
+
+.equal-color{
+    color: #F82847;
+}
+.string-highlight{
+    color: #F0F01E;
+}
