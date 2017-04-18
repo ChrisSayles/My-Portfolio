@@ -1,4 +1,4 @@
-// Freelancer Theme JavaScript
+Freelancer Theme JavaScript
 
 (function($) {
     "use strict"; // Start of use strict
