@@ -6,7 +6,7 @@
 }
 
 #typewriter{
-        font-size: 2em;
+        font-size: 4em;
         margin: 0;
         font-family: "Courier New";
         background-color: transparent;
@@ -57,7 +57,7 @@ header {
     text-align: center;
     background-image: url("../img/headerbg.jpg");
     background-size: cover;
-    
+
 background-color: #2B2B2B;
 color: #F6F6F6;
 }
@@ -69,6 +69,16 @@ color: #F6F6F6;
             margin-right: auto;
             display: inline
 }
+
+.portfolioImage{
+  width:355px;
+  height:305px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black
+}
+
+
 .headerHeight{
     height:100px;
     /*display: flex;
@@ -81,7 +91,7 @@ color: #F6F6F6;
 .profilePhoto{
         height: 300px;
     width: 275px;
-   
+
     border-radius: 50%;
 };
 
@@ -204,3 +214,6 @@ a, a.active, a:active, a:focus, a:hover {
     -webkit-animation-play-state: paused;
   }
 
+.contactText{
+  text-align: center;
+}
