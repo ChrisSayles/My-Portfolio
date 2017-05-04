@@ -60,6 +60,7 @@ header {
 
 background-color: #2B2B2B;
 color: #F6F6F6;
+overflow:hidden;
 }
 
 .headerImage{
@@ -78,9 +79,9 @@ color: #F6F6F6;
   border-color: black
 }
 
-/*.profileImage{
+.profileImage{
   float: right
-}*/
+}
 
 
 .headerHeight{

@@ -60,6 +60,7 @@ header {
 
 background-color: #2B2B2B;
 color: #F6F6F6;
+overflow:hidden;
 }
 
 .headerImage{
