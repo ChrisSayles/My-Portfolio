@@ -258,6 +258,9 @@ a, a.active, a:active, a:focus, a:hover {
     margin: 30px;
     font-size: 3em;
 }
+.popupBlack{
+  color:black;
+}
 
 
 .contactText{

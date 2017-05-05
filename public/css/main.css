@@ -119,6 +119,9 @@ overflow:hidden;
     content: "\f16c";
     color:black
 }
+.popupBlack{
+  color:black;
+}
 section h2 {
     margin: 30px;
     font-size: 3em;
