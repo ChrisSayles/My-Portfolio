@@ -261,6 +261,12 @@ a, a.active, a:active, a:focus, a:hover {
 .popupBlack{
   color:black;
 }
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
 
 
 .contactText{

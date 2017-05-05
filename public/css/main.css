@@ -122,6 +122,12 @@ overflow:hidden;
 .popupBlack{
   color:black;
 }
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
 section h2 {
     margin: 30px;
     font-size: 3em;
