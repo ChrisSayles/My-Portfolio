@@ -4,6 +4,9 @@
 .string-highlight{
     color: rgba(253, 149, 90, 0.8);
 }
+.portText {
+    text-align: center;
+}
 
 /*#typewriter{
         /*font-size: 25px;
