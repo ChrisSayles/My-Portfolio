@@ -5,8 +5,8 @@
     color: rgba(253, 149, 90, 0.8);
 }
 
-#typewriter{
-        font-size: 4em;
+/*#typewriter{
+        /*font-size: 25px;
         margin: 0;
         font-family: "Courier New";
         background-color: transparent;
@@ -15,8 +15,8 @@
         &:after{
             content: "|";
             animation: blink 500ms linear infinite alternate;
-        }
-}
+        }*/
+}*/
 
 @-webkit-keyframes blink{
     0%{opacity: 0;}
@@ -53,14 +53,21 @@
     color: #F6F6F6;
 }
 
+
+
+
 header {
-    text-align: center;
-    background-image: url("../img/headerbg.jpg");
+    text-align: left;
+    /*background-image: url("../img/headerbg.jpg");*/
     background-size: cover;
 
-background-color: #2B2B2B;
+background-color: white;
 color: #F6F6F6;
 overflow:hidden;
+}
+
+.portfolioText{
+  color:black;
 }
 
 .headerImage{
@@ -70,6 +77,27 @@ overflow:hidden;
             margin-right: auto;
             display: inline
 }
+.portfolioBG{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.aboutBG{
+    margin-top:-200px;
+    margin-bottom:0px;
+}
+.linksBG{
+    margin-top:-200px;
+    margin-bottom:20px;
+}
+.contactText{
+  color:black
+}
+
+.contactBG{
+    margin-top:-200px;
+    margin-bottom:20px;
+}
+
 
 .portfolioImage{
   width:355px;
@@ -78,9 +106,16 @@ overflow:hidden;
   border-width: 5px;
   border-color: black
 }
+.guitarPic{
+  width:355;
+  height:305px;
+}
 
-.profileImage{
-  float: right
+.profileImage {
+    height: 750px;
+    width: 650px;
+    float: right;
+    margin-top: -104px;
 }
 
 
@@ -219,6 +254,36 @@ a, a.active, a:active, a:focus, a:hover {
     -webkit-animation-play-state: paused;
   }
 
+  section h2 {
+    margin: 30px;
+    font-size: 3em;
+}
+
+
 .contactText{
   text-align: center;
+  color:black
+}
+.fa-stack-overflow:before {
+    content: "\f16c";
+    color:black;
+
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+    color:black;
+}
+.fa-github:before {
+    content: "\f09b";
+    color:black;
+}
+.btn-social {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
 }

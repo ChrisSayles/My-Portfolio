@@ -5,18 +5,18 @@
     color: rgba(253, 149, 90, 0.8);
 }
 
-#typewriter{
-        font-size: 4em;
+/*#typewriter{
+        font-size: 25px;
         margin: 0;
-        font-family: "Courier New";
+        /*font-family: "Courier New";
         background-color: transparent;
         border: transparent;
 
         &:after{
             content: "|";
             animation: blink 500ms linear infinite alternate;
-        }
-}
+        }*/
+}*/
 
 @-webkit-keyframes blink{
     0%{opacity: 0;}
@@ -54,13 +54,17 @@
 }
 
 header {
-    text-align: center;
-    background-image: url("../img/headerbg.jpg");
+    text-align: left;
+    /*background-image: url("../img/headerbg.jpg");*/
     background-size: cover;
 
-background-color: #2B2B2B;
+background-color: white;
 color: #F6F6F6;
 overflow:hidden;
+}
+
+.portfolioText{
+  color:black;
 }
 
 .headerImage{
@@ -71,12 +75,68 @@ overflow:hidden;
             display: inline
 }
 
+.profileImage {
+    height: 750px;
+    width: 650px;
+    float: right;
+    margin-top: -104px;
+    margin-right: -250px
+}
 .portfolioImage{
   width:355px;
   height:305px;
   border-style: solid;
   border-width: 5px;
   border-color: black
+}
+
+.portfolioBG{
+  margin-top:-200px;
+  margin-bottom:0px;
+}
+.aboutBG{
+    margin-top:-200px;
+    margin-bottom:0px;
+}
+.guitarPic{
+  width:355;
+  height:305px;
+}
+.btn-social {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+.contactBG{
+    margin-top:-200px;
+    margin-bottom:20px;
+}
+.fa-stack-overflow:before {
+    content: "\f16c";
+    color:black
+}
+section h2 {
+    margin: 30px;
+    font-size: 3em;
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+    color:black;
+}
+.fa-github:before {
+    content: "\f09b";
+    color:black;
+}
+.linksBG{
+    margin-top:-200px;
+    margin-bottom:20px;
+}
+.contactText{
+  color:black
 }
 
 
